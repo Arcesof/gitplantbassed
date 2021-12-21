@@ -35,15 +35,11 @@ header {
 h2 {
   color: black !important;
   text-decoration: none !important;
-  font-size: 20px !important;
+  font-size: 22px !important;
   font-family: sans-serif !important;
-  padding: 10px !important;
+  padding: 2px !important;
   margin-top: 30px !important;
   margin-left: 20px;
-}
-
-h3 {
-  margin-left: 10px;
 }
 
 .botonera {
@@ -91,7 +87,7 @@ h3 {
 #descripción {
   background-color: white;
   color: rgb(22, 22, 22);
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
   margin: 45px;
   font-family: sans-serif !important;
@@ -118,14 +114,15 @@ h3 {
   font-family: sans-serif;
   color: black;
   font-family: sans-serif;
+  margin-left: 10px;
 }
 
 .parrafo {
   background-color: white;
   color: black;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
-  margin: 50px;
+  margin: 40px;
   font-family: sans-serif !important;
 }
 
@@ -133,6 +130,7 @@ h3 {
   font-size: 18px;
   list-style-type: none;
   font-family: sans-serif;
+  text-align: center;
 }
 
 .menu {
@@ -145,7 +143,7 @@ h3 {
   height: 800px;
 }
 
-.queEs {
+.subtitulos-nos {
   text-align: center;
 }
 
@@ -156,6 +154,18 @@ h3 {
   font-family: sans-serif;
 }
 
+.subtitulo-suc {
+  text-align: center;
+}
+
+.reservas {
+  margin: 0;
+  padding: 20px;
+  color: black !important;
+  text-decoration: none;
+  font-size: 18px !important;
+  font-family: sans-serif;
+}
 /********************
  MENU con Submenu 
  *******************/
@@ -182,7 +192,7 @@ li:hover {
 }
 ul ul {
   position: absolute;
-  margin-left: 635px;
+  margin-left: 645px;
   display: none; /*oculta*/
 }
 ul ul li {
@@ -246,8 +256,12 @@ img {
 
 .menu-group-heading {
   margin: 0;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
   border-bottom: 1px solid rgb(210, 255, 138);
+  color: black !important;
+  text-decoration: none !important;
+  font-size: 22px !important;
+  font-family: sans-serif !important;
 }
 
 .menu-group {
@@ -281,6 +295,8 @@ img {
 
 .menu-item-name {
   margin-right: 1.5em;
+  font-family: sans-serif;
+  font-size: 18px;
 }
 
 .menu-item-description {
